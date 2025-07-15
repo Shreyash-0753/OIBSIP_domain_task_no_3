@@ -10,54 +10,66 @@ To develop a machine learning model that accurately predicts the selling price o
 Imported the dataset (CSV format) containing car details and prices.
 
 2. Data Exploration & Visualization :
-Analyzed data distribution using histograms, boxplots, and correlation heatmaps.
-Identified important features influencing the car price.
+  * Analyzed data distribution using histograms, boxplots, and correlation heatmaps.
+  * Identified important features influencing the car price.
+        
 3. Data Preprocessing :
-Handled missing values and outliers
-Encoded categorical variables (Fuel Type, Seller Type, etc.)
-Removed irrelevant columns like car names or registration number
-Scaled numerical features where necessary (for SVR)
+  * Handled missing values and outliers
+  * Encoded categorical variables (Fuel Type, Seller Type, etc.)
+  * Removed irrelevant columns like car names or registration number
+  * Scaled numerical features where necessary (for SVR)
+        
 4. Model Building :
+
 Trained and tested multiple regression models:
 
-Linear Regression
-Decision Tree Regressor
-Random Forest Regressor
-Support Vector Regressor (SVR)
-XGBoost Regressor
-5. Model Evaluation :
+  * Linear Regression
+  * Decision Tree Regressor
+  * Random Forest Regressor
+  * Support Vector Regressor (SVR)
+  * XGBoost Regressor
+
+##Model Evaluation :
+
 Compared model performance using:
 
-R² Score
-Mean Absolute Error (MAE)
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
+  * R² Score
+  * Mean Absolute Error (MAE)
+  * Mean Squared Error (MSE)
+  * Root Mean Squared Error (RMSE)
 
 ## Visualization :
-Feature importance bar chart
-Residual error plots
-Predicted
+
+ * Feature importance bar chart
+ * Residual error plots
+ * Predicted
 
 ## Tools and Technologies Used :
-Language: Python
-Platform: Jupyter Notebook / Google Colab
+
+ * Language: Python
+ * Platform: Jupyter Notebook / Google Colab
+   
 Libraries:
-pandas, numpy – data manipulation
-matplotlib, seaborn – data visualization
-sklearn – preprocessing, model building & evaluation
-xgboost – advanced regression model
+  * pandas, numpy – data manipulation
+  * matplotlib, seaborn – data visualization
+  * sklearn – preprocessing, model building & evaluation
+  * xgboost – advanced regression model
 
 ## Dataset Description :
+
 Features:
-Year (of manufacture)
-Present Price (current ex-showroom price)
-Kms Driven
-Fuel Type (Petrol, Diesel, CNG)
-Seller Type (Dealer / Individual)
-Transmission (Manual / Automatic)
-Owner (Number of previous owners)
+
+  * Year (of manufacture)
+  * Present Price (current ex-showroom price)
+  * Kms Driven
+  * Fuel Type (Petrol, Diesel, CNG)
+  * Seller Type (Dealer / Individual)
+  * Transmission (Manual / Automatic)
+  * Owner (Number of previous owners)
+    
 Target:
-Selling Price (price expected by seller)
+  * Selling Price (price expected by seller)
+  * 
 Rows: 301
 
 ## Outcome :
